@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'CVPD - asbl',
     images: [
       {
-        url: 'https://palotem-sarl.vercel.app/_next/image?url=%2Fimg%2Fglod.jpg&w=640&q=75',
+        url: 'https://cvpd-asbl.vercel.app/_next/image?url=https%3A%2F%2Fcvpd-asbl.org%2Fimg%2Fusers%2FDDH_Goma4.jpg&w=3840&q=75',
         width: 1200,
         height: 630,
         alt: 'Présentation de CVPD - sarl',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'CVPD - asbl',
     description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies",
-    images: ['https://palotem-sarl.vercel.app/_next/image?url=%2Fimg%2Fglod.jpg&w=640&q=75'],
+    images: ['https://cvpd-asbl.vercel.app/_next/image?url=https%3A%2F%2Fcvpd-asbl.org%2Fimg%2Fusers%2FDDH_Goma4.jpg&w=3840&q=75'],
   },
 }
 
