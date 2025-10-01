@@ -3,16 +3,15 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import AppWrapper from '@/components/AppWrapper'
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Société Palotem Sarl',
+  title: 'CVPD - asbl',
   description: 'une société unipersonnelle régie par l’Acte uniforme',
   openGraph: {
     title: 'Société Palotem Sarl',
     description: 'Notre expertise couvre le commerce général, l’import-export, les produits agricoles, les matériaux de construction, le génie civil, les énergies et les services logistiques',
-    url: 'https://palotem-sarl.vercel.app/',
+    url: 'https://cvpd-asbl.vercel.app//',
     siteName: 'Palotem Sarl',
     images: [
       {
@@ -34,14 +33,12 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children, params }: {
+  children,
+}: {
   children: React.ReactNode
-  params: { locale: string }
 }) {
-  
- 
   return (
-    <html lang={params.locale}>
+    <html lang="fr">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
