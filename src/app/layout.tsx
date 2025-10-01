@@ -10,15 +10,15 @@ export const metadata: Metadata = {
   description: 'une société unipersonnelle régie par l’Acte uniforme',
   openGraph: {
     title: 'Société Palotem Sarl',
-    description: 'Notre expertise couvre le commerce général, l’import-export, les produits agricoles, les matériaux de construction, le génie civil, les énergies et les services logistiques',
+    description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies.",
     url: 'https://cvpd-asbl.vercel.app//',
-    siteName: 'Palotem Sarl',
+    siteName: 'CVPD - asbl',
     images: [
       {
         url: 'https://palotem-sarl.vercel.app/_next/image?url=%2Fimg%2Fglod.jpg&w=640&q=75',
         width: 1200,
         height: 630,
-        alt: 'Présentation de Société Palotem Sarl',
+        alt: 'Présentation de CVPD - sarl',
       },
     ],
     locale: 'fr_FR',
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Société Palotem Sarl',
-    description: 'Notre expertise couvre le commerce général, l’import-export, les produits agricoles, les matériaux de construction, le génie civil, les énergies et les services logistiques.',
+    title: 'CVPD - asbl',
+    description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies",
     images: ['https://palotem-sarl.vercel.app/_next/image?url=%2Fimg%2Fglod.jpg&w=640&q=75'],
   },
 }
