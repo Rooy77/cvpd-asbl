@@ -31,28 +31,23 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto px-4 py-16">
                 <div className="flex flex-col lg:flex-row justify-between lg:space-x-12">
 
-                    {/* Bloc Gauche : Infos Légales et Réseaux Sociaux (ALIMA) */}
+                    
                     <div className="lg:w-1/2 mb-12 lg:mb-0">
-                        {/* Logo ALIMA */}
                         <div className="flex items-center mb-6">
                             <div className="relative w-16 h-16 mr-3">
-                                {/* Next.js Image Component */}
+                                
                                 <Image
-                                    src="/images/alima-logo.png" 
-                                    alt="Logo ALIMA"
+                                    src="/logos/logo.png" 
+                                    alt="Logo cvpd-asbl"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
-                            <h3 className="text-xl font-bold text-gray-800">ALIMA</h3>
+                            <h3 className="text-xl font-bold text-gray-800">CPD - asbl</h3>
                         </div>
                         
-                        {/* Texte Légal/Fiscal */}
-                        <p className="text-sm text-gray-700 mb-6 max-w-lg">
-                            Association loi 1901 - Inscription et numéro SIREN : 631 620 398.
-                        </p>
-                        <p className="text-sm text-gray-700 mb-8 max-w-lg">
-                            Dans le cadre du régime fiscal français, vous bénéficiez d’une réduction d’impôt sur le revenu de 75% du montant de vos dons dans la limite de 1 000 euros. Au-delà de ce montant, les dons sont déductibles à 66% dans la limite d’un équivalent de 20% de votre revenu imposable.
+                        <p className="text-xs font-light text-gray-700 mb-8 max-w-lg">
+                            Elle a été initiée par l’un des défenseurs des droits humains le plus ancien et le plus engagé en RDC monsieur Arnold DJUMA BATUNDI en Novembre 2012 à Goma, chef-lieu de la Province du Nord Kivu. Il a été ensuite rejoins par d’autres membres(12) qui y ont adhéré.
                         </p>
 
                         {/* Icônes de Réseaux Sociaux */}
@@ -71,19 +66,19 @@ export default function Footer() {
                             Inscrivez-vous à notre newsletter
                         </h4>
 
-                        <form className="space-y-4">
+                        <form className="space-y-4 text-gray-300 text-xs">
                             <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
                                 {/* Prénom */}
                                 <input 
                                     type="text" 
                                     placeholder="Prénom*" 
                                     required 
-                                    className="flex-1 p-3 border border-gray-300 rounded-full focus:ring-blue-500 focus:border-blue-500"
+                                    className="flex-1 p-3 border border-gray-300 rounded-full focus:ring-[#017dbf] focus:border-[#017dbf]"
                                 />
                                 {/* Pays */}
                                 <select 
                                     required 
-                                    className="flex-1 p-3 border border-gray-300 rounded-full focus:ring-blue-500 focus:border-blue-500 bg-white appearance-none"
+                                    className="flex-1 p-3 border border-gray-300 rounded-full focus:ring-[#017dbf] focus:border-[#017dbf] bg-white appearance-none"
                                 >
                                     <option value="" disabled selected>Pays*</option>
                                     <option value="France">France</option>
@@ -97,13 +92,13 @@ export default function Footer() {
                                 type="email" 
                                 placeholder="E-mail*" 
                                 required 
-                                className="w-full p-3 border border-gray-300 rounded-full focus:ring-blue-500 focus:border-blue-500"
+                                className="w-full p-3 border border-gray-300 rounded-full focus:ring-[#017dbf] focus:border-[#017dbf]"
                             />
                             
                             {/* Bouton d'inscription */}
                             <button 
                                 type="submit" 
-                                className="w-full md:w-auto bg-blue-600 text-white font-semibold py-3 px-8 rounded-full hover:bg-blue-700 transition-colors"
+                                className="w-full md:w-auto bg-[#017dbf] text-white font-semibold py-3 px-8 rounded-full hover:bg-[#017dbf] transition-colors"
                             >
                                 Je m&apos;inscris
                             </button>

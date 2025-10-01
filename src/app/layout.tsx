@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'CVPD - asbl',
   description: 'une société unipersonnelle régie par l’Acte uniforme',
   openGraph: {
-    title: 'Société Palotem Sarl',
+    title: 'CVPD - asbl',
     description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies.",
     url: 'https://cvpd-asbl.vercel.app//',
     siteName: 'CVPD - asbl',
