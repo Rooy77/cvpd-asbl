@@ -46,7 +46,7 @@ export default function Header() {
                 <Link href="/" className="flex items-center space-x-2">
                     <Image
                     src="/logos/logo.png"
-                    alt="Logo Palotem"
+                    alt="Logo"
                     width={48}
                     height={48}
                     className="rounded-full object-cover"
