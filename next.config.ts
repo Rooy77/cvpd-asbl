@@ -1,7 +1,28 @@
-import type { NextConfig } from "next";
+// next.config.js
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com', // pour les images venant de pexel
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com', // pour les images venant de unsplash
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com', // pour les images venant de Cloudinary
+      },
+      {
+        protocol: 'https',
+        hostname: 'cvpd-asbl.org', // pour les images venant de Cloudinary
+      },
+    ],
+  },
+  
+  
 
-const nextConfig: NextConfig = {
-  /* config options here */
 };
 
-export default nextConfig;
+module.exports = nextConfig;
