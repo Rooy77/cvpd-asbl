@@ -7,11 +7,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'CVPD - asbl',
-  description: 'une société unipersonnelle régie par l’Acte uniforme',
+  description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies",
   openGraph: {
     title: 'CVPD - asbl',
     description: "Organisation dotée d'un statut consultatif Spécial à l'ECOSOC aux Nations Unies.",
-    url: 'https://cvpd-asbl.vercel.app//',
+    url: 'https://cvpd-asbl.vercel.app/',
     siteName: 'CVPD - asbl',
     images: [
       {
