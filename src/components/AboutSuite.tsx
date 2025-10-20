@@ -140,7 +140,7 @@ const AboutSection = () => {
                         src="https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg"
                         alt="Bottom image for content marketing"
                         fill
-                        className="object-cover rounded-xl"
+                        className="object-cover rounded-2xl"
                       />
                     </motion.div>
                   )}
