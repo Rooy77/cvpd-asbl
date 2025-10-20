@@ -60,9 +60,9 @@ export default function Header() {
                     <Link
                         key={item.href}
                         href={item.href}
-                        className={`text-sm font-light hover:text-[#017dbf] transition-colors duration-200 ${
+                        className={`text-sm font-light hover:text-orange-200 transition-colors duration-200 ${
                         pathname === item.href
-                            ? "text-gray-800"
+                            ? "text-[#017dbf]"
                             : scrolled
                             ? "text-gray-700"
                             : "text-white"
@@ -117,7 +117,7 @@ export default function Header() {
                         href={item.href}
                         onClick={() => setMenuOpen(false)}
                         className={`block text-base font-medium transition-colors duration-200 ${
-                        pathname === item.href ? "text-o[#017dbf]" : "text-gray-700"
+                        pathname === item.href ? "text-[#017dbf]" : "text-gray-700"
                         } `}
                     >
                         {item.label}

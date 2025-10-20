@@ -8,11 +8,11 @@ export default function MapSection() {
         {/* Left: Map */}
         <div className="flex justify-center">
           <Image
-            src="/images/map-africa.png" // 👉 mets l'image de la carte dans /public/images/
+            src="/img/stat.jpg" 
             alt="Carte des opérations"
             width={600}
             height={500}
-            className="w-full max-w-md"
+            className="w-full max-w-md rounded-xl"
           />
         </div>
 
@@ -22,8 +22,8 @@ export default function MapSection() {
             <span className="mr-2 block h-1.5 w-1.5 rounded-full bg-[#017dbf]"></span>
             <span className="text-xs font-bold">Pourquoi-Nous ?</span>
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-2">
-            La carte de nos opérations
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
+            Dotée d&apos;un statut consultatif Spécial à l&apos;ECOSOC aux Nations Unies dépuis 2021
           </h2>
           <div className="w-16 h-1 bg-orange-200 mt-3 mb-6"></div>
 

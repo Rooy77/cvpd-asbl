@@ -12,12 +12,12 @@ const App: React.FC = () => {
       {/* Hero Section */}
       <div 
         className="relative bg-cover bg-center h-[80vh] flex items-center justify-center pt-16" 
-        style={{ backgroundImage: "url('../image/back.png')" }}
+        style={{ backgroundImage: "url('/img/back.png')" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="absolute inset-0 bg-black/40 "></div>
         <div className="relative text-white p-8 max-w-4xl">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-                Coalition des Volontaires pour la Paix et le Développement
+                Coalition des <span className='text-orange-200'>Volontaires</span> pour la Paix et le Développement
             </h1>
             <div className="flex space-x-2 mb-6 items-center">
                 <div className='w-[2px] h-[2.5rem] bg-orange-200 mt-1'></div>

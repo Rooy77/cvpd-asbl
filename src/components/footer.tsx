@@ -77,10 +77,11 @@ export default function Footer() {
                                 />
                                 {/* Pays */}
                                 <select 
+                                    defaultValue=""
                                     required 
                                     className="flex-1 p-3 border border-gray-300 rounded-full focus:ring-[#017dbf] focus:border-[#017dbf] bg-white appearance-none"
                                 >
-                                    <option value="" disabled selected>Pays*</option>
+                                    <option value="" disabled >Pays*</option>
                                     <option value="France">France</option>
                                     <option value="Canada">Canada</option>
                                     {/* Ajoutez d'autres pays ici */}

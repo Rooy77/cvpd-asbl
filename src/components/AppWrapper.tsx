@@ -1,6 +1,7 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
+import Header from "./header";
 import Footer from './footer';
 
 export default function AppWrapper({ children }: { children: React.ReactNode }) {
@@ -9,8 +10,8 @@ export default function AppWrapper({ children }: { children: React.ReactNode }) 
 
   return (
     <>
-    
-     
+
+      {!isAdmin && <Header />}
       <main>{children}</main>
       {!isAdmin && <Footer />}
     </>
