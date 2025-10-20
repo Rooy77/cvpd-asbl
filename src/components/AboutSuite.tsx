@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { FiArrowRight } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
 const AboutSection = () => {
@@ -25,7 +24,7 @@ const AboutSection = () => {
       title: "• Nos Objectifs",
       description:
         "Identifier par des actions diverses les problèmes communautaires qui entravent la promotion des droits humains, la paix et le développement; Accompagner les victimes de la torture, des violences sexuelles et des violences basées sur le genre par des actions d’identification, traitement et références médicales, accompagnement psychologique, médiation sociale, actions en justice, réinsertion économique, Accompagner les organisations Communautaires de Base qui œuvrent dans la promotion et la défense des droits de l’homme, la paix et le développement par des formations y compris les organisations des victimes des violences basées sur le genre, de la torture et d’autres traitements dégradants et inhumains; Promouvoir et défendre les droits humains à travers les mécanismes nationaux, régionaux et internationaux.",
-      imageSrc: "https://images.pexels.com/photos/3184457/pexels-photo-3184457.jpeg",
+      imageSrc: "/img/obj.jpg",
       alt: "Group collaborating on content ideas",
       highlight: true,
     },
@@ -33,7 +32,7 @@ const AboutSection = () => {
       title: "• Réconnaissance légale",
       description:
         "Elle est agrée sous les actes suivants : F92 : 20.283 du 16 Mai 2013 ministère national de la justice et droits humains, arrêté provincial du gouverneur : 01/224/CAB/GP-NK/2015, DIVAS : 08/DIVAS/N-K/AS/045/2015, Miniplan : 439/DPP/NK/2014, Ministère du genre, famille et enfant : 007/DIV-PRO/GEFAE-NK/2014, autorisation de fonctionnement commune de Goma : 5072/260/CG/D22/2014. Son numéro national d’impôts : A1518931U",
-      imageSrc: "https://images.pexels.com/photos/3184305/pexels-photo-3184305.jpeg",
+      imageSrc: "/img/leg.jpg",
       alt: "Woman sending an email campaign",
       highlight: false,
     },
@@ -87,7 +86,7 @@ const AboutSection = () => {
                     alt={service.alt}
                     fill
                     className="object-cover rounded-xl"
-                    style={{ filter: service.highlight ? "none" : "grayscale(100%)" }}
+                    style={{ filter: service.highlight ? "none" : "grayscale(50%)" }}
                   />
                 </div>
 
@@ -137,7 +136,7 @@ const AboutSection = () => {
                       className="relative w-full h-40 mt-4 rounded-xl overflow-hidden"
                     >
                       <Image
-                        src="https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg"
+                        src="/img/stat.jpg"
                         alt="Bottom image for content marketing"
                         fill
                         className="object-cover rounded-2xl"

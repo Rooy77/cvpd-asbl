@@ -20,7 +20,7 @@ const AboutUs = () => {
             {/* Image 1 (Top Left) */}
             <div className="w-[77%] h-56 relative rounded-xl overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
+                src="/img/team.webp"
                 alt="Team working together"
                 fill
                 className="object-cover rounded-2xl"
@@ -31,7 +31,7 @@ const AboutUs = () => {
             {/* Image 2 (Bottom Left) */}
             <div className="w-full h-56 relative rounded-xl overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg"
+                src="/img/about-b.png"
                 alt="Business discussion"
                 fill
                 className="object-cover rounded-2xl"
