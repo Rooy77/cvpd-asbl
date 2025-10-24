@@ -1,6 +1,8 @@
 'use client';
 import Image from "next/image";
 import MisionV from "@/components/MissionVal";
+import Domaines from "@/components/DomainesInterventions";
+import Partenner from "@/components/partenner";
 
 export default function About(){
     return(
@@ -23,7 +25,7 @@ export default function About(){
                                         <span className="text-xs font-bold text-orange-200">Nos valeurs</span>
                                 </p>
                                 <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-gray-100 to-gray-100">
-                                    Nous <span className="text-white">découvrire.</span>
+                                    <span className="text-white">Agissons Ensemble.</span>
                                 </h2>
                                 
                             </div>
@@ -33,6 +35,8 @@ export default function About(){
                 </div>
             </div>
             <MisionV />
+            <Domaines />
+            <Partenner/>
         </section>
     )
 }
