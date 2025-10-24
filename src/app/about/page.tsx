@@ -3,6 +3,7 @@ import Image from "next/image";
 import StorySection from "@/components/story";
 import MobilT from "@/components/mobilT";
 import AboutaSuite from "@/components/AboutSuite";
+import Organigramme from "@/components/Organigramme";
 
 export default function About(){
     return(
@@ -35,6 +36,7 @@ export default function About(){
                 </div>
             </div>
             <StorySection />
+            <Organigramme />
             <AboutaSuite />
             <MobilT />
         </section>

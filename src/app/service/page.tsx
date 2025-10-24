@@ -1,5 +1,6 @@
 'use client';
 import Image from "next/image";
+import MisionV from "@/components/MissionVal";
 
 export default function About(){
     return(
@@ -31,6 +32,7 @@ export default function About(){
                     </div>
                 </div>
             </div>
+            <MisionV />
         </section>
     )
 }

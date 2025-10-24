@@ -44,17 +44,12 @@ const AboutUs = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ type: "spring", stiffness: 100, delay: 0.5 }}
-              className="absolute top-[25%] left-[83%] w-24 h-24 flex items-center justify-center rounded-full bg-white shadow-sm  border-4 border-white z-10"
+              className="absolute top-[25%] left-[82%] w-24 h-24 flex items-center justify-center rounded-2xl bg-orange-200 z-10"
               // J'ai enlevé les transformations dynamiques pour le coller dans la zone comme sur la maquette
             >
               <div className="relative w-full h-full flex items-center justify-center">
                 <span className="text-green-700 font-bold text-base">
-                    <Image
-                        src="/logos/logo.png"
-                        alt="Business discussion"
-                        fill
-                        className="object-cover rounded-2xl"
-                    />
+                    
                 </span>
               </div>
             </motion.div>

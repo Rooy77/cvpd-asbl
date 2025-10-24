@@ -40,7 +40,8 @@ const AboutSection = () => {
 
   return (
     <section className="bg-white text-gray-800">
-      <div className="max-w-6xl mx-auto px-8 py-16">
+      <div className="max-w-6xl mx-auto px-8">
+        <div className="h-20 w-full"></div>
         {/* En-tête */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16">
           <div>
@@ -149,6 +150,7 @@ const AboutSection = () => {
           })}
         </div>
       </div>
+      <div className="h-20 w-full"></div>
     </section>
   );
 };

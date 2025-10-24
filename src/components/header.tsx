@@ -11,10 +11,11 @@ import HeaderP from "./headerP";
 
 // Définition des liens de navigation
 const navItems = [
-  { label: "Découvrir C.V.P.D", href: "/about" },
-  { label: "Agir avec nous", href: "/service" },
-  { label: "Nos actualités", href: "/blog" },
-  { label: "Contacts", href: "/contact" },
+    { label: "Accueil", href: "/" },
+    { label: "Découvrir C.V.P.D", href: "/about" },
+    { label: "Agir avec nous", href: "/service" },
+    { label: "Nos actualités", href: "/blog" },
+    { label: "Contacts", href: "/contact" },
 ];
 
 export default function Header() {
