@@ -64,10 +64,10 @@ export default function Partenaires() {
   return (
     <section className="bg-white py-20 px-4 text-center">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-2">
           Ils nous ont approuvés
         </h2>
-
+        <div className="w-16 h-1 bg-orange-200 mt-3 mb-6 justify-center mx-auto"></div>
         {/* Logos partenaires */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 justify-items-center mb-20">
           {partenaires.map((p, index) => (

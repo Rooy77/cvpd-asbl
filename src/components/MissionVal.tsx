@@ -18,7 +18,7 @@ const MissionEcosoc = () => {
           </div>
 
           <p className="text-gray-700 font-semibold mb-4">
-            La CVPD a pour mission :
+            La CVPD - Asbl a pour mission :
           </p>
 
           {/* Liste des Missions */}
